@@ -1,5 +1,33 @@
 body {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.project-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.project-item h4 {
+  margin: 0;
+}
+
+.project-item h4 a {
+  font-size: 1.3rem;
+  color: #66bfbf;
+  text-decoration: underline;
+}
+
+.project-item h4 a:hover {
+  color: #5a99a4;
+  text-decoration: none;
 }
 
 hr {
@@ -10,16 +38,34 @@ hr {
   width: 5%;
 }
 
-h1, h3 {
-  color: #66BFBF
+h1,
+h3 {
+  font-size: 1.6rem;
+  color: #66bfbf;
 }
 
 img {
   border-radius: 50%;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .description {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+td {
+  font-size: 1.2rem;
+}
+
+.last {
+  margin-bottom: 1rem;
 }
